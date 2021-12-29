@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyDurableFunctions", "MyDurableFunctions\MyDurableFunctions.csproj", "{0AA369CA-ACF3-4942-AF40-E1B15F3EA616}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyServiceBusQueueFunctionPublisher", "MyServiceBusQueueFunctionPublisher\MyServiceBusQueueFunctionPublisher.csproj", "{D76EE9CE-96D0-45E4-A906-78688DA43018}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyServiceBusQueueSubscriber", "MyServiceBusQueueSubscriber\MyServiceBusQueueSubscriber.csproj", "{F869E351-CCBC-4C43-B8B2-CD1EC5B984EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyServiceBusQueuePublisher", "MyServiceBusQueuePublisher\MyServiceBusQueuePublisher.csproj", "{37AC915F-A4E2-4B8C-A6CA-1417A00BB38C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppServiceWordpress", "AppServiceWordpress", "{02AC62C2-D48B-42FB-9AEC-40FFA67CF78F}"
+	ProjectSection(SolutionItems) = preProject
+		AppServiceWordpress\CreateWp.ps1 = AppServiceWordpress\CreateWp.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1230B06C-0FFD-4444-A5C1-4ED1932830FF}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AA369CA-ACF3-4942-AF40-E1B15F3EA616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA369CA-ACF3-4942-AF40-E1B15F3EA616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA369CA-ACF3-4942-AF40-E1B15F3EA616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA369CA-ACF3-4942-AF40-E1B15F3EA616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76EE9CE-96D0-45E4-A906-78688DA43018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76EE9CE-96D0-45E4-A906-78688DA43018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76EE9CE-96D0-45E4-A906-78688DA43018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76EE9CE-96D0-45E4-A906-78688DA43018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F869E351-CCBC-4C43-B8B2-CD1EC5B984EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F869E351-CCBC-4C43-B8B2-CD1EC5B984EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F869E351-CCBC-4C43-B8B2-CD1EC5B984EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F869E351-CCBC-4C43-B8B2-CD1EC5B984EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37AC915F-A4E2-4B8C-A6CA-1417A00BB38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37AC915F-A4E2-4B8C-A6CA-1417A00BB38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37AC915F-A4E2-4B8C-A6CA-1417A00BB38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37AC915F-A4E2-4B8C-A6CA-1417A00BB38C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FEDB42B-12FF-4EED-B431-37D548095951}
+	EndGlobalSection
+EndGlobal
